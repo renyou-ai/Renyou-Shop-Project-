@@ -43,4 +43,22 @@ Responsable des fonctionnalités intelligentes :
 
 - recommandation de produits  
 - classification des intentions du chatbot  
-- traitement des requêtes liées à l’IA  
+- traitement des requêtes liées à l’IA
+
+
+             +----------------+
+           |   Frontend     |
+           |    React       |
+           +--------+-------+
+                    |
+                    v
+           +----------------+
+           |     Backend    |
+           |   Express.js   |
+           +--------+-------+
+                    |
+                    v
+           +----------------+
+           |   ML Service   |
+           |     Flask      |
+           +----------------+
