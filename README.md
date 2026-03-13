@@ -15,27 +15,32 @@ Certaines fonctionnalités sont encore en phase de configuration et de test.
 - **Outils DevOps** : Git, ESLint, Prettier, CI/CD (à venir)
 
 ## 📂 Structure du projet
-Renyou-Shop-Project-/
-│── backend/        → API Express.js + MongoDB (Mongoose)
-│   ├── server.js   → Point d’entrée du backend
-│   ├── src/
-│   │   ├── controllers/ → Logique métier (produits, auth, etc.)
-│   │   ├── models/      → Schémas Mongoose (User, Product, etc.)
-│   │   └── routes/      → Définition des endpoints REST
-│
-│── frontend/       → Interface utilisateur React + Vite + TailwindCSS
-│   ├── src/
-│   │   ├── components/  → Navbar, Footer, ProductCard, etc.
-│   │   ├── pages/       → Shop, Routine, Auth, Admin
-│   │   └── App.jsx      → Router principal
-│   ├── vite.config.js   → Configuration Vite
-│   └── tailwind.config.js → Configuration TailwindCSS
-│
-│── ml-service/     → Service Flask pour recommandations & chatbot
-│   ├── app.py      → Endpoints /ml/recommend et /ml/chat
-│   └── data/       → Dataset produits nettoyé
-│
-│── postman/        → Collections API pour tests et documentation
-│── .gitignore      → Exclusion des fichiers inutiles (node_modules, .env, etc.)
-│── package.json    → Dépendances globales
-│── README.md       → Documentation du projet
+
+Le projet adopte une **architecture composée de trois modules principaux** :
+
+### Frontend (React)
+
+Responsable de l’interface utilisateur, incluant :
+
+- la navigation dans les produits  
+- le questionnaire d’analyse de la peau  
+- l’affichage des routines recommandées  
+- l’interface du chatbot  
+- le dashboard administrateur  
+
+### Backend (Express.js)
+
+Fournit l’API principale qui gère :
+
+- l’authentification des utilisateurs  
+- la gestion des produits  
+- les profils utilisateurs  
+- la communication avec le service d’intelligence artificielle  
+
+### Service IA (Flask)
+
+Responsable des fonctionnalités intelligentes :
+
+- recommandation de produits  
+- classification des intentions du chatbot  
+- traitement des requêtes liées à l’IA  
