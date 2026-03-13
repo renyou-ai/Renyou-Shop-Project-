@@ -45,6 +45,7 @@ Responsable des fonctionnalités intelligentes :
 - classification des intentions du chatbot  
 - traitement des requêtes liées à l’IA
 
+## Architecture
 
              +----------------+
            |   Frontend     |
