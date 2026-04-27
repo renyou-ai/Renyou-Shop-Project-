@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* في ملف CSS ولا global styles */
+@keyframes myBounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-5px); } /* المسافة */
+}
+
+.bounce-custom {
+  animation: myBounce 1s ease-in-out infinite; /* مدة + نوع easing + repeat */
+}
