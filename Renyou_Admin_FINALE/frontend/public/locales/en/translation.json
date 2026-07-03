@@ -1,0 +1,52 @@
+{
+  "settings": "Settings",
+  "dashboard": "Dashboard",
+  "customers": "Customers",
+  "products": "Products",
+  "orders": "Orders",
+  "promotions": "Promotions",
+  "coupons": "Coupons",
+  "brands": "Brands",
+  "categories": "Categories",
+  "users": "Users",
+  "logout": "Logout",
+  "profile": "Profile",
+  "appearance": "Appearance",
+  "security": "Security",
+  "notifications": "Notifications",
+  "principal": "Main",
+  "marketing": "Marketing",
+  "administration": "Administration",
+
+  "save": "Save",
+  "saveProfile": "Save Profile",
+  "saveSettings": "Save Settings",
+
+  "storeName": "Store Name",
+  "supportEmail": "Support Email",
+  "currency": "Currency",
+  "language": "Language",
+  "timezone": "Timezone",
+
+  "generalSettings": "General Settings",
+  "notificationPreferences": "Notification Preferences",
+  "securitySettings": "Security Settings",
+  "changePassword": "Change Password",
+
+  "fullName": "Full Name",
+  "email": "Email",
+
+  "currentPassword": "Current Password",
+  "newPassword": "New Password",
+  "confirmPassword": "Confirm New Password",
+
+  "lightMode": "Light Mode",
+  "darkMode": "Dark Mode",
+
+  "themeColor": "Theme Color",
+  "sidebarWidth": "Sidebar Width",
+
+  "compact": "Compact",
+  "normal": "Normal",
+  "large": "Large"
+}

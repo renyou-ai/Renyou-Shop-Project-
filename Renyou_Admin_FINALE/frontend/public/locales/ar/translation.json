@@ -1,0 +1,12 @@
+{
+  "dashboard": "لوحة التحكم",
+  "products": "المنتجات",
+  "orders": "الطلبات",
+  "customers": "العملاء",
+  "suppliers": "الموردون",
+  "inventory": "المخزون",
+  "analytics": "التحليلات",
+  "coupons": "الكوبونات",
+  "settings": "الإعدادات",
+  "logout": "تسجيل الخروج"
+}
