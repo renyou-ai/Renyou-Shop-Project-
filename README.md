@@ -28,16 +28,16 @@ RENYOU is a full-stack e-commerce platform for beauty and skincare products, fea
 
 ## 📁 Project Structure
 
-```text
+<pre>
 .
-├── Renyou-Shop-Project--main--v2/   # Customer application & backend
-├── Renyou_Admin_FINALE/             # Admin dashboard
+├── Renyou-Shop-Project--main--v2/   <i>Customer website &amp; backend</i>
+├── Renyou_Admin_FINALE/             <i>Admin dashboard</i>
 ├── docker-compose.yml
 ├── Dockerfile.backend
 ├── Dockerfile.frontend.site
 ├── Dockerfile.frontend.admin
 └── .dockerignore
-```
+</pre>
 
 ---
 
