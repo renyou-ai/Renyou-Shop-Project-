@@ -1,4 +1,5 @@
-# RENYOU 💜
+
+<h1 align="center">RENYOU 💜</h1>
 
 <p align="center">
   <img src="assets/home.png" alt="RENYOU Home" width="900">
@@ -69,4 +70,4 @@ docker compose up --build
 
 ## 👨‍💻 Authors
 
-Developed as part of the **RENYOU** project.
+Developed by **Rihab DHAHRI** and **Houssem DHAHRI**.
