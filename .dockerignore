@@ -1,0 +1,9 @@
+**/node_modules
+**/venv312
+**/venv
+**/.git
+**/.vscode
+**/dist
+**/build
+**/.env
+**/*.log

@@ -1,0 +1,15 @@
+FROM node:20-alpine
+
+WORKDIR /app
+
+COPY Renyou-Shop-Project--main--v2/backend/package*.json ./
+
+RUN npm install
+
+COPY Renyou-Shop-Project--main--v2/backend/ .
+
+ENV NODE_ENV=development
+
+EXPOSE 5000
+
+CMD ["npm", "start"]
